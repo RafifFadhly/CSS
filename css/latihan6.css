@@ -1,0 +1,175 @@
+body{
+    background-image: url("ac5e0edb4a224c6c6b4341a2f9b2d276.jpg");
+}
+
+#logo{
+    display: block;
+    margin: 0px auto 0px auto;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+#judul{
+    text-align: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    border-radius: 10px;
+    background-color: black;
+    border: 5px solid red;
+    margin: 0px auto 0px auto;
+    width: 500px;
+
+
+}
+.video{
+    display:block;
+    width:225px;
+    height:200px;
+    margin: 5px;
+}
+.kumvid{
+    display:flex;
+    margin: 0px auto 0px auto;
+    border-radius: 10px;
+    width: 1200px;
+    height: 210px;
+    background-color: black;
+    border: 5px solid red;
+}
+.game{
+    display:flex;
+    margin: 0px auto 0px auto;
+    border-radius: 10px;
+    width: 1200px;
+    height: 210px;
+    background-color: black;
+    border: 5px solid red;
+}
+h3{
+    display: block;
+    text-align: center;
+    font-family: cursive;
+    background-color: black;
+    color: rgb(52, 100, 222);
+    border: 5px solid red;
+    height: 30px;
+    width: 1200px;   
+    margin: 0px auto 0px auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+h4{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    background-color: black;
+    color: rgb(52, 100, 222);
+    border: 5px solid red;
+    height: 30px;
+    width: 800px;   
+    margin: 0px auto 0px auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+button{
+    color: blue;
+    background-color: black;
+    font-family: cursive;
+    font-size: 20px;
+    border: 5px solid red;
+    display:block;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    
+    align-self: center;
+}
+button:hover{
+    background-color: rgb(76, 76, 76);
+    color: blue;
+}
+a:hover{
+    background-color: rgb(76, 76, 76);
+    color: rgb(20, 126, 126);
+}
+a:active{
+    background-color: white;
+    color: black;
+}
+a:link{
+    color: blue;
+    background-color: black;
+}
+a:visited{
+    color: red;
+    background-color: black;
+}
+.kumbut{
+    display: flex;
+    background-color: black;
+    color: rgb(52, 100, 222);
+    border-radius: 10px;
+    border: 5px solid red;
+    margin-bottom : 10px;
+    height: 70px;
+    width: 500px;
+    margin: 0px auto 0px auto;
+}
+.konten{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main{
+    display:block;
+    margin: 15px auto;
+}
+.tabel{
+    display: flex;
+    width: 800px;
+    height: 200px;
+    margin: 0px auto 0px auto;
+    border-radius: 10px;
+    background-color: black;
+    border: 5px solid red;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+td:first-child {
+    width: 5px;
+    border: 2px solid black;
+  }
+
+  td:not(:first-child) {
+    width: 50px;
+    border: 2px solid black;
+  }
+
+  thead td {
+    background-color: red;
+    color: black;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: blue;
+    color: white;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: blue;
+    color: white;
+  }
+
+  td:hover {
+    background-color: red;
+    color: black;
+  }
